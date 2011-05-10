@@ -7,9 +7,7 @@ def run():
     while True:
         while source.read(1) != 'B':
             pass
-        value = ''
-        while len(value) < 11:
-            value += source.read(1)
+        value = source.read(11)
         if source.read(2) == '\n\r':
             for char in value:
                 win32api.keybd_event(ord(char), 0, 0, 0)
