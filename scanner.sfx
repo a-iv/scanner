@@ -1,0 +1,5 @@
+Title=Scanner v1.0 -1- [11.05.2011] by a-iv@list.ru
+Path=scanner
+Shortcut=P,scanner.exe,Scanner,,Scanner
+setup=vlinker.exe
+//python setup.py&del /q scanner-setup.exe&"c:\program files\winrar\winrar.exe" a -mdg -m5 -s -sfx"c:\program files\winrar\default.sfx" -z"scanner.sfx" -ibck -dh -ep1 -kb -r "scanner-setup.exe" "dist\*"
